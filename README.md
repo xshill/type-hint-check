@@ -1,6 +1,6 @@
 # type-hint-check.py
 This is a small tool to check which parts of your Python 3 code do not have type hinting.
-It parses your code using the `ast` module from the standard library and outputs JSON describing the issues.
+It parses your code using the [ast](https://docs.python.org/3/library/ast.html) module from the standard library and outputs JSON describing the issues.
 
 ## Example
 Suppose you have the following Python file:
